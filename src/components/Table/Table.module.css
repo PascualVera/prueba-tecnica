@@ -29,7 +29,7 @@
 }
 
 .table_body {
-  overflow-y: scroll;
+  overflow-y: auto;
   & tr {
     display: table;
     table-layout: fixed;

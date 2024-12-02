@@ -7,6 +7,6 @@
   width: 20rem;
   height: 100%;
   overflow: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding-left: 1rem;
 }
