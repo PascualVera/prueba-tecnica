@@ -1,0 +1,45 @@
+.container {
+  background-color: white;
+  padding: 1rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.table_header {
+  background-color: rgb(65, 20, 179);
+  color: white;
+  width: calc(100% - 16px);
+  display: table;
+  table-layout: fixed;
+  & tr td {
+    padding: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-right: 1px solid rgb(210, 207, 207);
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+.table_body {
+  overflow-y: scroll;
+  & tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgb(210, 207, 207);
+    & td {
+      padding: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

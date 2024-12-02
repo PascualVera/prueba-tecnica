@@ -1,0 +1,45 @@
+.header {
+  height: 10rem;
+  width: 100vw;
+  padding: 1.5rem 2rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_wrapper {
+  height: 100%;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.navbar {
+  color: white;
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    li {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    &:hover {
+      filter: brightness(10);
+    }
+  }
+}
+
+.separator {
+  width: 1px;
+  height: 100%;
+  background-color: white;
+}
