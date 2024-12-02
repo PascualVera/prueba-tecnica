@@ -5,6 +5,6 @@ export function useUsers() {
     const [users, setUsers] = useState(null);
     useEffect(() => {
         getUsers().then(users => setUsers(users))
-    })
+    }, [])
     return users
 }
